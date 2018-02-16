@@ -1,24 +1,52 @@
 <!DOCTYPE html><html><head>
-		<title>Calculator</title><meta charset="utf-8">
-	<script type="text/javascript">
-		function cube(){
-			var num = document.getElementById("n1");
-			num.value = Math.pow(num.value,3);
-		}
-	</script>
-	</head>
+	
+	<title>Calculator</title><meta charset="utf-8">
+	
+<script type="text/javascript">
+	
+	function cube(){
+	
+		var num = document.getElementById("n1");
+	
+		num.value = Math.pow(num.value,3);
+		
+}
+	
+</script>
+
+<script type="text/javascript">
+	
+	function cuarta(){
+	
+		var numdos = document.getElementById("n2");
+	
+		numdos.value = Math.pow(numdos.value,4);
+		
+}
+	
+</script>
+
+	
 <script type="text/javascript">
 		function seno(){
 			var numtres = document.getElementById("n3");
 			numtres.value = Math.sin(numtres.value);
 		}
 	</script>
+</head>
 	<body>
-		<h1>Calculadora de Cristina Rodriguez</h1>
-		Number:
-		<input type="text"id="n1">
-		<button onclick="cube()">x^3</button>
+	
+	<h1>Calculadora de Cristina Rodriguez</h1>
+	
+	Number:
+<input type="text"id="n1">
+	<button onclick="cube()">x^3</button>
+<input type="text"id="n2">
+	<button onclick="cuarta()">x^4</button>
 <input type="text"id="n3">
-		<button onclick="seno()">seno</button>
+        <button onclick="seno()">seno</button>*
+
 	</body>
 </html>
+
+
