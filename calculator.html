@@ -7,10 +7,18 @@
 		}
 	</script>
 	</head>
+<script type="text/javascript">
+		function seno(){
+			var numtres = document.getElementById("n3");
+			numtres.value = Math.sin(numtres.value);
+		}
+	</script>
 	<body>
 		<h1>Calculadora de Cristina Rodriguez</h1>
 		Number:
 		<input type="text"id="n1">
 		<button onclick="cube()">x^3</button>
+<input type="text"id="n3">
+		<button onclick="seno()">seno</button>
 	</body>
 </html>
